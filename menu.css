@@ -1,3 +1,22 @@
 ul.menu:hover {
-  background-color: red
+  background-color: pink
+}
+
+* {
+  border-style: solid;
+  margin: 5p
+}
+
+.menu{
+  display: inline-grid;
+width:50%
+}
+
+.menu li{
+  display: none;
+}
+
+
+.menu:hover li{
+  display: block;
 }
